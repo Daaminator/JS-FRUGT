@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Frugtbutikken</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        
+        
+        <header><h1>Husseins frugtbutik</h1></header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <img id="ananas" onClick="opdaterKurv(0,1)" src="img/ananas.JPG" width="100px;" alt="ananas">
+                    <p id="antal0">Antal: 0 stk.</p>
+                    <p id="pris0">Pris: 4kr.</p>
+                    <br>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img id="banan" width="100px;" onClick="opdaterKurv(1,1)" src="img/banan.jpg" alt="Banan">
+                    <p id="antal1">Antal: 0 stk.</p>
+                    <p id="pris1">Pris: 4kr.</p>
+                </div>
+                
+                <div class="col-md-4 col-sm-12">
+                    <img id="appelsin" width="100px;" onClick="opdaterKurv(2,1)" src="img/appelsin.png" alt="Appelsin">
+                    <p id="antal2">Antal: 0 stk.</p>
+                    <p id="pris2">Pris: 4kr.</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <img id="mango" width="100px;" onClick="opdaterKurv(3,1)" src="img/mango.png" alt="Mango">
+                    <p id="antal3">Antal: 0 stk.</p>
+                    <p id="pris3">Pris: 4kr.</p></div>
+                
+                <div class="col-md-4 col-sm-12">
+                    <img id="kiwi" width="100px;" onClick="opdaterKurv(4,1)" src="img/kiwi.jpg" alt="kiwi">
+                    <p id="antal4">Antal: 0 stk.</p>
+                    <p id="pris4">Pris: 4kr.</p>                    
+                
+                
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img id="vindrue" width="100px;" onClick="opdaterKurv(5,1)" src="img/vindrue.png" alt="vindrue">
+                    <p id="antal5">Antal: 0 stk.</p>
+                    <p id="pris5">Pris: 4kr.</p>
+                
+                </div>
+            </div>
+        
+        </div>
+        
+        
+        
+        
+        
+        
+            <div id="antalSamlet">
+        <!-- her vises og opdateres det samlede antal frugter bestilt -->
+        <p id="samletantal">Samlet antal: 0 stk</p>
+    </div>
+    <!-- her vises og opdateres den samlede pris for de bestilte frugter -->
+    <div id="antalSamlet">
+        <p id="samletpris">Samlet pris: 0 kr.</p>
+    </div>
+    <hr>
+   
+            
+            <hr/>
+    </body>
+</html>
+
+    <script src="javascript2.js"></script>
+
+

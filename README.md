@@ -1,2 +1,1 @@
-# JS-FRUGT
-JS-FRUGT
+# Javascript-frugt

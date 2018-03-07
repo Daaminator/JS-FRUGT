@@ -1,0 +1,23 @@
+header{
+    background-color:greenyellow;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.container {padding-top:30px;}
+
+.moms-beregner {
+    background-color:#e4e4e4;
+    border: 1px solid #282828;
+}
+
+img {
+    width: 100%;
+}
+
+.containter {
+    width:60%;
+}
+
+header h1 {font-size:90px;}
